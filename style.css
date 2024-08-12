@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior:smooth;
+}
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.parent{
+    width: 100%;
+    min-height: 100%;
+    position:absolute;
+    display: flex;
+   justify-content: center;
+}
+.child{
+   width: 90%;
+   height:100%;
+   background-color:rgba(128, 128, 128, 0.3);
+   backdrop-filter:blur(40px);
+   position:relative;
+   border: 1.5px gray solid;
+   margin-top: 5%;
+   border-radius: 20px;
+   margin-bottom: 8%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:space-evenly;
+    display: flex;
+}
+.topics{
+    height:auto;
+    width: 500px;
+    min-width: 300px;
+}
+
+p{
+    color: white;
+}
+.topics1{
+    height:auto;
+    width: 500px;
+    min-width: 300px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+    color: white;
+}
+.nav-h2{
+    color: rgb(210, 174, 11);
+}
+.nav li{
+   list-style: none;
+}
+li a:hover{
+    color:  rgb(210, 174, 11);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    margin-top:15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.name-1{
+    font-size: 2vmin;
+}
+.name-2{
+    font-size: 10vmin;
+    -webkit-text-stroke: 2px rgb(210, 174, 11) ;
+    color: transparent;
+}
+.name-3{
+    font-size: 3vmin;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.cv-button{
+    font-size:15px;
+    padding: 15px 20px;
+    color: rgb(210, 174, 11);
+    background-color: transparent;
+    border: 1px  rgb(210, 174, 11) solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.hire-button{
+    padding: 15px 20px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(210, 174, 11);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4%;
+}
+#page2{
+    margin-top: 9%;
+}
+.topic-parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.topic{
+    color:white ;
+    font-size: 5vmin;
+}
+.underline-about{
+    height: 2px;
+    width: 70px;
+    background-color:rgb(210, 174, 11) ;
+}
+.photo{
+    width: 30%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-width:300px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px rgb(210, 174, 11) solid;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 150px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.school{
+    margin-left: 3%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    min-width:400px;
+    flex-direction: column;
+    
+}
+.images{
+    height: 200px;
+    width: 200px;
+    min-width: 100px;
+    min-height: auto;
+    border-radius:30px;
+    border: 1px  rgb(210, 174, 11) solid;
+    object-fit: cover;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+   
+}
+.school-name{
+    margin-top: 10px;
+    font-size: 3.5vmin;
+    color:rgb(210, 174, 11) ;
+}
+.underline-school{
+    height: 2px;
+    width: 70px;
+    background-color:rgb(210, 174, 11) ;
+}
+.school-head{
+    margin-top: 10px;
+    font-size: 5vmin;
+}
+.school-para{
+    margin-top: 5px;
+    font-size: 2vmin;
+}
+.cgpa{
+    margin-top: 5px;
+    font-size: 2vmin;
+}
+#page3{
+    margin-top: 9%;
+}
+.skills-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4%;
+}
+.front{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    min-width:400px;
+    min-height: auto;
+    gap:25px;
+}
+.back{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    min-width:400px;
+    min-height: auto;
+    gap:25px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size:100px;
+    flex-wrap: wrap;
+}
+.front-text{
+    color:rgb(210, 174, 11);
+    font-size: 6vmin;
+    padding-top: 70px;
+    padding-bottom:80px;
+}
+.back-text{
+    color:rgb(210, 174, 11);
+    font-size: 6vmin;
+    padding-top: 70px;
+    padding-bottom:80px;
+}
+.back-para{
+    font-size: 6vmin;
+}
+.front-para{
+    font-size: 6vmin;
+}
+#page4{
+    margin-top: 9%;
+}
+.project-parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 100px;
+}
+.project{
+    height: 400px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px rgb(210, 174, 11) solid;
+    border-radius: 20px;
+    background-color: rgb(210, 174, 11) ;
+}
+.pro-button{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+.view{
+    font-family: "Poppins", sans-serif;
+    padding: 5px 15px ;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    border:white 1px solid ;
+    cursor: pointer;
+    background-color:transparent;
+}
+
+.code{
+    font-family: "Poppins", sans-serif;
+    padding: 5px 15px ;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    border:white 1px solid ;
+    cursor: pointer;
+    background-color:transparent;
+}
+.project-para{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vmin;
+    
+}
+.project-h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4vmin;
+}
+.images-pro{
+    height: 200px;
+    width: 100%;
+    min-width: 100px;
+    min-height: auto;
+    border-radius:30px 30px 0 0;
+    border: 1px  rgb(210, 174, 11) solid;
+    object-fit: cover;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+   
+}
+#page5{
+    margin-top: 9%;
+    padding-bottom: 9%;
+}
+.contact-head{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    color:rgb(210, 174, 11) ;
+    font-size: 6vmin;
+}
+.contact-names{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:start; 
+    min-width:400px;
+    min-height: auto;
+    gap:25px;
+    margin-left:8%;
+}
+.contact-mail{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    min-width:400px;
+    min-height: auto;
+    gap:25px;
+}
+
+.contact-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 4%;
+}
+.app{
+    display: flex;
+    gap: 20px;
+}
+.contact-icon{
+    color:rgb(210, 174, 11) ;
+    font-size: 30px;
+}
+.name-textarea{
+   height: 50px;
+   width: 400px;
+   border-radius: 20px;
+   border: 1px rgb(210, 174, 11) solid;
+   background-color: transparent;
+   padding-left: 15px;
+   color: white;
+   font-family: "Poppins", sans-serif;
+   min-width: 300px;
+}
+.mes-textarea{
+   height:200px;
+   width: 400px;
+   border-radius: 20px;
+   border: 1px rgb(210, 174, 11) solid;
+   background-color: transparent;
+   padding-left: 15px;
+   color: white;
+   font-family: "Poppins", sans-serif;
+    min-width:300px;
+}
+.mail-button{
+    padding: 4px 20px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(210, 174, 11);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+::placeholder{
+    color: rgb(210, 174, 11) ;
+    font-family: "Poppins", sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
